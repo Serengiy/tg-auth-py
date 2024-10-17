@@ -36,6 +36,7 @@ async def process_messages(dialog):
                 print(f" - Access Hash: {photo_info.access_hash}")
                 print(f" - File Reference: {photo_info.file_reference}")
                 print(f" - Date: {photo_info.date}")
+                print(f" - Has Stickers: {photo_info.has_stickers}")
                 print(f" - DC ID: {photo_info.dc_id}")
                 print(f" - Has Stickers: {photo_info.has_stickers}")
                 print(
